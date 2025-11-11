@@ -32,7 +32,7 @@ Use local environment variables for development (.env files are in .gitignore)
 See resources/kaggle_links.md for detailed setup instructions
 
 📁 Repository Structure
-ai-agents-intensive-2025/
+```ai-agents-intensive-2025/
 │
 ├── README.md                      # This file
 ├── LICENSE                        # MIT License
@@ -60,7 +60,8 @@ ai-agents-intensive-2025/
 └── day5_capstone/                 # Day 5 capstone project
     ├── ...         
     └── ...                   
-
+```
 🧠 Acknowledgements
 
 This repository follows the structure and learning flow of the Google × Kaggle 5-Day AI Agents Intensive 5 day course (2025 ).
+
