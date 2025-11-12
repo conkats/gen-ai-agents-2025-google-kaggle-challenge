@@ -12,6 +12,11 @@ Codelabs include building your first AI agent and your first multi-agent system,
 
 The day codelabs covers creation of custom tools for my agents by turning my own Python functions into actions my agent can perform. MCP and implementation of long-running operations where an agent can pause tool calls while waiting for human approval, before resuming is developed.
 
+## Day3:
+Explore context engineering as the practice of dynamically assembling and managing information within an agent's context window to create stateful and personalized Al experiences. It defines sessions as the container for a single, immediate conversation's history, and memory as the long-term persistence mechanism using vector databases.
+
+In the codelabs, you will learn how to make agents stateful by managing conversation history through context engineering in ADK, and working memory within a session, allowing your agent to remember context and have coherent, multi-turn conversations. In the second notebook, you'll give your agent long-term memory that persists across different sessions.
+
 [kaggle-google Agents url](https://www.kaggle.com/learn-guide/5-day-agents)
 
 Previous course:
