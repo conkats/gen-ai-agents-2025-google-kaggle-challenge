@@ -54,12 +54,12 @@ See resources/kaggle_links.md for detailed setup instructions
 │   └── day-3b-agent-sessions.ipynb
 │ 
 ├── day4_evaluation_and_scaling/   # Day 4 Kaggle notebook
-│   ├── ...
-│   └── ...                  
+│   ├── day-4a-agent-observability.ipynb
+│   └── day-4b-agent-evaluation.ipynb
 │
 └── day5_capstone/                 # Day 5 capstone project
-    ├── ...         
-    └── ...                   
+    ├── day-5a-agent2agent-communication.ipynb
+    └── day-5b-agent-deployment.ipynb
 ```
 🧠 Acknowledgements
 
