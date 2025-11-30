@@ -57,9 +57,12 @@ See resources/kaggle_links.md for detailed setup instructions
 │   ├── day-4a-agent-observability.ipynb
 │   └── day-4b-agent-evaluation.ipynb
 │
-└── day5_capstone/                 # Day 5 capstone project
+└── day5_production/                 # Day 5 production
     ├── day-5a-agent2agent-communication.ipynb
     └── day-5b-agent-deployment.ipynb
+└── capstone-project/                 
+    ├── ai_trip_organiser.ipynb       # testing architectures, memory etc.     
+    └── tripmindai.ipynb.ipynb        #final submitted capstone project
 ```
 🧠 Acknowledgements
 
