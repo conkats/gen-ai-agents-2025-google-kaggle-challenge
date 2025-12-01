@@ -60,9 +60,8 @@ See resources/kaggle_links.md for detailed setup instructions
 └── day5_production/                 # Day 5 production
     ├── day-5a-agent2agent-communication.ipynb
     └── day-5b-agent-deployment.ipynb
-└── capstone-project/                 
-    ├── ai_trip_organiser.ipynb       # testing architectures, memory etc.     
-    └── tripmindai.ipynb.ipynb        #final submitted capstone project
+└── capstone-project/                    
+    └── tripmindai.ipynb.ipynb        #final submitted capstone project for TripMindAI
 ```
 🧠 Acknowledgements
 
