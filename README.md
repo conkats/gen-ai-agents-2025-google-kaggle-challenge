@@ -63,6 +63,38 @@ See resources/kaggle_links.md for detailed setup instructions
 └── capstone-project/                    
     └── tripmindai.ipynb.ipynb        #final submitted capstone project for TripMindAI
 ```
+
+## Capstone-Project:
+### The Problem:
+Modern travel planning is overwhelming. A simple trip requires juggling a dozen browser tabs—flights, hotels, and activities—often leading to decision fatigue and disjointed itineraries.
+
+### The Solution: ***TripMindAI**
+Is not just another booking site; it is an intelligent agentic system that acts as your personal travel architect. Built on a robust multi-agent architecture, TripMind decomposes the complex problem of travel planning into specialised tasks handled by distinct AI agents.
+
+🎯 TripMindAI's Objective: Ease the process and save time before finalising bookings.
+
+Streamline pre‑booking research so users can quickly compare and select flights and hotels.
+Support both exploratory trip planning and more structured business travel needs.
+🌟 What the project covers - Key Features
+
+✅ Multi-agent system architecture:
+
+ - Search for flights based on destination, origin and dates given
+ - Search for hotels based on destination
+ - Parallel agent system framework to search for hotels and flights - happens simultaneously
+ - Loop refinement agent to refine the output from the agent and not relying on one-shot response: Flight Assistant, hotel finder → Orchestraror-LLM
+ - Sequential Agent to manage and coordinate the agents workflow
+ - Powered Coordinator/Manager: Root agent orchestrates the entire process → Final Suggestion
+✅ Tools:
+
+- Custom-Function (Save information,  Retrieve information)
+- MCP tool
+✅ Sessions & Memory:
+
+- Memory and Database storage for using session and states
+- Hold the memory of the proposed suggestion and trip of the user, needed if changing plans, add database using sqlite (long-term memory with databases)
+
+
 🧠 Acknowledgements
 
 This repository follows the structure and learning flow of the Google × Kaggle 5-Day AI Agents Intensive 5 day course (2025 ).
